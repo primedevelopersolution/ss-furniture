@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" fill="none" width="100%" height="100%">
+  <defs>
+    <!-- Rich warm brass metallic gradient -->
+    <linearGradient id="brassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="45%" stop-color="#E8CA72" />
+      <stop offset="70%" stop-color="#C5A059" />
+      <stop offset="100%" stop-color="#9E7632" />
+    </linearGradient>
+    
+    <!-- Deep walnut wood gradient -->
+    <linearGradient id="walnutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3D2314" />
+      <stop offset="50%" stop-color="#28170D" />
+      <stop offset="100%" stop-color="#190E08" />
+    </linearGradient>
+
+    <!-- Subtle drop shadow -->
+    <filter id="subtleShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-color="#000000" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- LOGO EMBLEM: Architectural Chair & Interlocking SS Monogram -->
+  <g transform="translate(6, 4)" filter="url(#subtleShadow)">
+    <!-- Base arch/chair silhouette -->
+    <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#walnutGrad)" stroke="url(#brassGrad)" stroke-width="1.5" />
+    
+    <!-- Architectural subtle inner frame -->
+    <rect x="6" y="6" width="52" height="52" rx="10" fill="none" stroke="url(#brassGrad)" stroke-width="0.75" stroke-dasharray="2 2" stroke-opacity="0.5" />
+    
+    <!-- First 'S' - sculpted warm gold curve -->
+    <path d="M 23 20 C 18 20, 16 23, 16 26 C 16 31, 28 30, 28 36 C 28 40, 25 43, 20 43 C 16 43, 14 41, 14 39" 
+          stroke="url(#brassGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+          
+    <!-- Second 'S' - offset intertwined luxury curve -->
+    <path d="M 40 21 C 45 21, 48 24, 48 27 C 48 32, 36 31, 36 37 C 36 41, 39 44, 44 44 C 48 44, 50 42, 50 40" 
+          stroke="url(#brassGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+          
+    <!-- Central connecting furniture element (lounge seat line) -->
+    <line x1="20" y1="32" x2="44" y2="32" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="1" stroke-linecap="round" />
+    
+    <!-- Subtle wood joinery accent points -->
+    <circle cx="32" cy="15" r="1.5" fill="url(#brassGrad)" />
+    <circle cx="32" cy="49" r="1.5" fill="url(#brassGrad)" />
+  </g>
+
+  <!-- TYPOGRAPHY -->
+  <!-- Primary Brand Name -->
+  <text x="82" y="38" 
+        font-family="'Playfair Display', Georgia, 'Times New Roman', serif" 
+        font-size="25" 
+        font-weight="700" 
+        letter-spacing="1.5" 
+        fill="#26160E">
+    S.S. FURNITURE
+  </text>
+
+  <!-- Subtle Sub-brand Badge -->
+  <text x="83" y="54" 
+        font-family="'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" 
+        font-size="8.5" 
+        font-weight="600" 
+        letter-spacing="3.5" 
+        fill="#A37E3E">
+    HOME FURNITURE SHOWROOM
+  </text>
+  
+  <!-- Architectural divider line -->
+  <line x1="83" y1="43" x2="278" y2="43" stroke="#C5A059" stroke-opacity="0.3" stroke-width="0.8" />
+</svg>
